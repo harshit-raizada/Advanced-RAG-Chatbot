@@ -42,7 +42,7 @@ This project implements a Retrieval-Augmented Generation (RAG) system that proce
 
 ### 1. Clone the Repository
 
-'''git clone https://github.com/yourusername/pdf-rag-multilingual-system.git'''
+'''git clone https://github.com/yourusername/pdf-rag-multilingual-system.git
 
 'cd pdf-rag-multilingual-system'
 
