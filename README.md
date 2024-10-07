@@ -38,6 +38,42 @@ This project implements a Retrieval-Augmented Generation (RAG) system that proce
 1. Download and install Poppler binaries from [here](https://github.com/oschwartz10612/poppler-windows).
 2. Ensure the path to Poppler is provided in the code when converting PDFs to images.
 
+## Setup Instructions
+
+### 1. Clone the Repository
+
+git clone https://github.com/yourusername/pdf-rag-multilingual-system.git
+cd pdf-rag-multilingual-system
+
+### 2. Create a Virtual Environment
+
+python -m venv venv
+venv\Scripts\activate  # For Windows
+For Mac/Linux, use: source venv/bin/activate
+
+### 3. Install the Dependencies
+
+pip install -r requirements.txt
+
+### 4. Set up Environment Variables
+
+OPENAI_API_KEY=your_openai_api_key
+
+### 5. Run the API
+
+python app.py
+
+### 6. API Endpoints
+
+GET /health
+
+POST /ask
+
+### 7. Documentation
+
+https://harshitraizada.atlassian.net/wiki/external/YWE5YmE0Zjk4ZWM4NDY5ZjkyYjgyMDAwMjUxZWE5ZDI
+
+
 ### Setup Instructions
 
 1. Clone the repository
@@ -83,6 +119,6 @@ Ask a Query
 
 POST /ask
 
-### Documentation 
+7. ### Documentation 
 
 https://harshitraizada.atlassian.net/wiki/external/YWE5YmE0Zjk4ZWM4NDY5ZjkyYjgyMDAwMjUxZWE5ZDI
