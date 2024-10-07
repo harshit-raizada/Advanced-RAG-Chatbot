@@ -82,3 +82,7 @@ Response:
 Ask a Query
 
 POST /ask
+
+### Documentation 
+
+https://harshitraizada.atlassian.net/wiki/external/YWE5YmE0Zjk4ZWM4NDY5ZjkyYjgyMDAwMjUxZWE5ZDI
