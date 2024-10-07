@@ -43,12 +43,15 @@ This project implements a Retrieval-Augmented Generation (RAG) system that proce
 ### 1. Clone the Repository
 
 git clone https://github.com/yourusername/pdf-rag-multilingual-system.git
+
 cd pdf-rag-multilingual-system
 
 ### 2. Create a Virtual Environment
 
 python -m venv venv
+
 venv\Scripts\activate  # For Windows
+
 For Mac/Linux, use: source venv/bin/activate
 
 ### 3. Install the Dependencies
@@ -70,55 +73,5 @@ GET /health
 POST /ask
 
 ### 7. Documentation
-
-https://harshitraizada.atlassian.net/wiki/external/YWE5YmE0Zjk4ZWM4NDY5ZjkyYjgyMDAwMjUxZWE5ZDI
-
-
-### Setup Instructions
-
-1. Clone the repository
-
-git clone https://github.com/yourusername/pdf-rag-multilingual-system.git
-cd pdf-rag-multilingual-system
-
-2. Create a Virtual Environment
-   
-python -m venv venv
-venv\Scripts\activate
-
-3. Install the dependencies
-
-pip install -r requirements.txt
-
-4. Set up environment variables
-
-Create a .env file in the project root with the following variables:
-
-OPENAI_API_KEY=your_openai_api_key
-
-5. Run the API
-
-python app.py
-The API should now be running at http://localhost:8000.
-
-6. API Endpoints
-
-Health Check
-
-GET /health
-
-Description: Check if the API is running.
-
-Response:
-
-{
-  "status": "healthy"
-}
-
-Ask a Query
-
-POST /ask
-
-7. ### Documentation 
 
 https://harshitraizada.atlassian.net/wiki/external/YWE5YmE0Zjk4ZWM4NDY5ZjkyYjgyMDAwMjUxZWE5ZDI
