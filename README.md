@@ -38,14 +38,47 @@ This project implements a Retrieval-Augmented Generation (RAG) system that proce
 1. Download and install Poppler binaries from [here](https://github.com/oschwartz10612/poppler-windows).
 2. Ensure the path to Poppler is provided in the code when converting PDFs to images.
 
-## Project Structure
+### Setup Instructions
 
-```bash
-pdf-rag-multilingual-system/
-├── app.py                      # Main FastAPI application
-├── requirements.txt            # Python dependencies
-├── README.md                   # Project documentation
-├── .env                        # Environment variables for API keys
-├── local_pdfs/                 # Folder to store PDFs
-└── vectorstore.faiss           # FAISS index for vector search
+1. Clone the repository
 
+git clone https://github.com/yourusername/pdf-rag-multilingual-system.git
+cd pdf-rag-multilingual-system
+
+2. Create a Virtual Environment
+   
+python -m venv venv
+venv\Scripts\activate
+
+3. Install the dependencies
+
+pip install -r requirements.txt
+
+4. Set up environment variables
+
+Create a .env file in the project root with the following variables:
+
+OPENAI_API_KEY=your_openai_api_key
+
+5. Run the API
+
+python app.py
+The API should now be running at http://localhost:8000.
+
+6. API Endpoints
+
+Health Check
+
+GET /health
+
+Description: Check if the API is running.
+
+Response:
+
+{
+  "status": "healthy"
+}
+
+Ask a Query
+
+POST /ask
