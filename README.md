@@ -42,35 +42,33 @@ This project implements a Retrieval-Augmented Generation (RAG) system that proce
 
 ### 1. Clone the Repository
 
-git clone https://github.com/yourusername/pdf-rag-multilingual-system.git
+'git clone https://github.com/yourusername/pdf-rag-multilingual-system.git'
 
-cd pdf-rag-multilingual-system
+'cd pdf-rag-multilingual-system'
 
 ### 2. Create a Virtual Environment
 
-python -m venv venv
+'python -m venv venv'
 
-venv\Scripts\activate  # For Windows
-
-For Mac/Linux, use: source venv/bin/activate
+'venv\Scripts\activate'  # For Windows
 
 ### 3. Install the Dependencies
 
-pip install -r requirements.txt
+'pip install -r requirements.txt'
 
 ### 4. Set up Environment Variables
 
-OPENAI_API_KEY=your_openai_api_key
+'OPENAI_API_KEY=your_openai_api_key'
 
 ### 5. Run the API
 
-python app.py
+'python app.py'
 
 ### 6. API Endpoints
 
-GET /health
+'GET /health'
 
-POST /ask
+'POST /ask'
 
 ### 7. Documentation
 
