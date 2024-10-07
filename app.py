@@ -119,6 +119,7 @@ try:
 except Exception as e:
     print('Not able to load Vectorstore:', e)
 
+# Initialize Retriever
 retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={"k": 3})
 
 # Initialize OpenAI LLM
